@@ -1,0 +1,120 @@
+/* Box sizing and font setting */
+* {
+    box-sizing: border-box;
+}  
+body {
+    background-color: #141c21;
+    text-align: center;
+    font-family: 'Terminus', serif;
+    font-size: 24px;
+    color: #d8d8d8;
+    margin: 0;
+    padding: 0;
+}
+.flexbox {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.innerflex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 1000px;
+    height: 500px;
+    background-color: aqua;
+    flex-direction: row;
+    box-shadow: 10px aqua;
+}
+.clock {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    width: 200px;
+    height: 500px;
+    background-color: #182e3b;
+    border: 5px solid #FF7458;
+}
+.links {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 400px;
+    height: 500px;
+    background-color: #182e3b;
+    border: 5px solid #FF7458;
+}
+.image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 400px;
+    height: 500px;
+    background-color: #182e3b;
+    border: 5px solid #FF7458;
+    background-image: url(lain1.gif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.search {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 1000px;
+    height: 100px;
+    background-color: #182e3b;
+    border: 5px solid #FF7458;
+}
+
+nav {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px
+}
+li {
+    list-style-type: none;
+}
+h3 {
+    margin: 2px;
+}
+hr {
+    margin: 22px;
+}
+a, a:visited {
+    color: inherit;
+    text-decoration: underline;
+}
+a:hover {
+    color: #FF7458;
+}
+.clocktext {
+    font-size: 58px;
+    margin: 20px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+input {
+    width: 990px;
+    height: 90px;
+    text-align: center;
+    border: 0px;
+    background-color: transparent;
+    color: inherit;
+    font-size: 32px;
+    font-family: inherit;
+}
